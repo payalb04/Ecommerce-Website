@@ -1,0 +1,100 @@
+<!--product.php-->
+<!DOCTYPE html>
+<head>
+    <title>Product page</title>
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="back-arrow">
+                <a href="home.html">&larr;</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+            <span class="profile-icon" onclick="goToProfilePage()">
+                <img src="profile-icon.png"></span>
+            <div class="cart-icon"><a href="#"><img src="cart.jpg" alt="cart"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Facewash</h2>
+            <div class="products">
+                <table>
+                    <tr>
+                        <td>
+                <div class="product">
+                    <img src="garnier.jpg" alt="product1">
+                    <h3>GARNIER</h3>
+                    <P>Bright Complete VITAMIN C, 150g(Pack of 2)|Brighter and Glowing Skin Face Wash(300 g)</P>
+                    <span class="price">$391</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%231" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="lotus.jpg" alt="product1">
+                    <h3>Lotus Botanicals</h3>
+                    <P>Ubtan De- Tan Radiance Face Wash (100ml)</P>
+                    <span class="price">$111</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%232" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="skin story.jpg" alt="product1">
+                    <h3>The Skin Story</h3>
+                    <P>Pimple & Acne Control Facewash, Sensitive, Oily Skin, Ginger, Cinnamon, Hazel Face Wash (100ml)</P>
+                    <span class="price">$129</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%233" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="lakme.jpg" alt="product1">
+                    <h3>Lakme</h3>
+                    <P>Blush & Glow Stawberry Blast, Gentle Facewash Cleanser Facewash (100g) </P>
+                    <span class="price">$209</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%234" class="order-btn">Order Now</a>
+                 </div>
+                 </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="biotique.jpg" alt="product1">
+                    <h3>BIOTIQUE</h3>
+                    <P>Fruit Brightening | For Men & Women | Suitable for all skin types Face wash(400ml)</P>
+                    <span class="price">$261</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%235" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="joy.jpg" alt="product1">
+                    <h3>JOY</h3>
+                    <P>Skin Purifying & Deep Detox Activated Charcoal Face Wash (300 ml)</P>
+                    <span class="price">$302</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%236" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="products.js"></script>
+</body>

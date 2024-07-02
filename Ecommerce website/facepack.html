@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title>Product page</title>
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="back-arrow">
+                <a href="home.html">&larr;</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+            <span class="profile-icon" onclick="goToProfilePage()">
+                <img src="profile-icon.png"></span>
+            <div class="cart-icon"><a href="#"><img src="cart.jpg" alt="cart"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>FacePack</h2>
+            <div class="products">
+                <table>
+                    <tr>
+                        <td>
+                <div class="product">
+                    <img src="kimaya.jpg" alt="product1">
+                    <h3>Kimayra World</h3>
+                    <P>Pure & Natural Multani Mitti Powder Bentonite Clay Great For Hair Face Skin (75 g)</P>
+                    <span class="price">$35</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%207" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="glamveda.jpg" alt="product1">
+                    <h3>GLAMVEDA</h3>
+                    <P>Activated Charcoal Peel Off Mask Enriched with Argan Oil and Aloe Vera (100 g)</P>
+                    <span class="price">$136</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%208" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="good vibes.jpg" alt="product1">
+                    <h3>GOOD VIBES</h3>
+                    <P>Ubtan Insta Glow Sheet Mask (20 g) Pack of 3 (60ml)</P>
+                    <span class="price">$173</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%209" class="order-btn">Order Now</a>
+                 </div> 
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="skinella.jpg" alt="product1">
+                    <h3>SKINELLA</h3>
+                    <P>Coffee Chocalate 50 Gm pack of 2 (100g) </P>
+                    <span class="price">$184</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%210" class="order-btn">Order Now</a>
+                 </div>
+                 </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="o3.jpg" alt="product1">
+                    <h3>O3+</h3>
+                    <P>Powder Foil D-Tan Face sheet mask for Brightening & Glowing Skin (20ml)</P>
+                    <span class="price">$204</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%211" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="kaira.jpg" alt="product1">
+                    <h3>Kaira</h3>
+                    <P>Coffee & Cinnamon Face Pack Brightening 100% Natural & Ayurvedic (50g)</P>
+                    <span class="price">$183</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%212" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="products.js"></script>
+</body>

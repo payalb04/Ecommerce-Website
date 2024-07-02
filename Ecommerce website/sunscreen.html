@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title>Product page</title>
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="back-arrow">
+                <a href="home.html">&larr;</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+            <span class="profile-icon" onclick="goToProfilePage()">
+                <img src="profile-icon.png"></span>
+            <div class="cart-icon"><a href="#"><img src="cart.jpg" alt="cart"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Sunscreen</h2>
+            <div class="products">
+                <table>
+                    <tr>
+                        <td>
+                <div class="product">
+                    <img src="aqua.jpg" alt="product1">
+                    <h3>Aqualogica</h3>
+                    <P>Sunscreen - SPF SPF 50 PA++++ Glow+ Dewy Sunscreen with SPF 50 for UVA/B & Blue Light Protection (50g)</P>
+                    <span class="price">$359</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%219" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="lakme sunscreen.jpg" alt="product1">
+                    <h3>Lakme</h3>
+                    <P>Sunscreen - SPF 50 PA+++ PA+++ 9 To 5 Sun Expert Gel Light (50g)</P>
+                    <span class="price">$262</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%220" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="nutriglow.jpg" alt="product1">
+                    <h3>NutriGlow</h3>
+                    <P>Sunscreen - SPF 40 PA+++ Sunscreen Fairness Liquorice UV Lotion (120ml)</P>
+                    <span class="price">$134</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%221" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="underated.jpg" alt="product1">
+                    <h3>UNDERATED</h3>
+                    <P>Sunscreen - SPF 50++++ PA++++ Powered wiyh Vitamin C & Vitamin E (50 ml)</P>
+                    <span class="price">$161</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%222" class="order-btn">Order Now</a>
+                 </div>
+                 </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="dema co.jpg" alt="product1">
+                    <h3>The Derma Co</h3>
+                    <P>Sunscreen - SPF 50 PA++++ 1% Hyaluronic Sunscreen Aqua Ultra Light Gel with SPF 50 PA++++ For Broad Spectrum, UV A, UV B (50 g)</P>
+                    <span class="price">$413</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%223" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="dr sheth.jpg" alt="product1">
+                    <h3>Dr. Sheth's</h3>
+                    <P>Sunscreen - SPF 50 PA++++ Ashwagandha & Alpha Arbutin Sunscreen 2 in 1 Solution for Hyper Pigmentation (50 g)</P>
+                    <span class="price">$302</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%224" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="products.js"></script>
+</body>

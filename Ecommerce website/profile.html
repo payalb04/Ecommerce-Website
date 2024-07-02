@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>profile</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #636161;
+        }
+        .header{
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header a{
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .profile-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .profile{
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .profile h2{
+            margin-bottom: 10px;
+        }
+        .profile p{
+            margin-bottom: 5px;
+        }
+        .profile button{
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="home.html">Home</a>
+        <a href="facewash.html">Products</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+    </div><br><br>
+    <div class="profile-container">
+        <div class="profile">
+            <img src="profile-icon.png">
+            <h2>Payal Bhapkar</h2>
+            <p>Email: Payalbhapkar04@gmail.com</p>
+            <p>Location: Pune Maharashtra</p>
+            <p>Member Since: January 2024</p>
+            <button onclick="editProfile()">Edit Profile</button>
+        </div>
+    </div>
+    <script>
+        function editProfile(){
+            alert('Implement your edit profile functionally here.');
+        }
+    </script>
+</body>

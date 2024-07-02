@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title>Product page</title>
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="back-arrow">
+                <a href="home.html">&larr;</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+            <span class="profile-icon" onclick="goToProfilePage()">
+                <img src="profile-icon.png"></span>
+            <div class="cart-icon"><a href="#"><img src="cart.jpg" alt="cart"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Moisturizer</h2>
+            <div class="products">
+                <table>
+                    <tr>
+                        <td>
+                <div class="product">
+                    <img src="mamaearth.jpg" alt="product1">
+                    <h3>Mamaearth</h3>
+                    <P>Vitamin C Oil-Free Face Moisturizer Vitamin C & Gotu Kola for Skin Illumination (50g)</P>
+                    <span class="price">$156</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%213" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="minimalist.jpg" alt="product1">
+                    <h3>Minimalist</h3>
+                    <P>10% Vitamin B5 Oil Free Face Moisturizer with Zinc, Copper & HA for Oily skin (50g)</P>
+                    <span class="price">$297</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%214" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="derma co moisturizer.jpg" alt="product1">
+                    <h3>The Derma Co</h3>
+                    <P>5% Vitamin C Oil Free Daily Face Moisturizer for Skin Radiance (100 g)</P>
+                    <span class="price">$281</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%215" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="aqua moisturizer.jpg" alt="product1">
+                    <h3>Aqualogica</h3>
+                    <P>Illuminate + Oil Free Moisturizer With Wild Berries and Alpha Arbutin (100 g) </P>
+                    <span class="price">$315</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%216" class="order-btn">Order Now</a>
+                 </div>
+                 </td>
+                    </tr>
+                    <tr>
+                        <td>
+                 <div class="product">
+                    <img src="dot key.jpg" alt="product1">
+                    <h3>Dot & Key</h3>
+                    <P>Vitamin C + E Moisturizaer For Face With Hyaluronic Kakadu Plum Cream for dark spot (60ml)</P>
+                    <span class="price">$390</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%217" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                        <td>
+                 <div class="product">
+                    <img src="plum.jpg" alt="product1">
+                    <h3>Plum</h3>
+                    <P>Saffron & Kumkumadi Oil Glow Bright Moisturizer Eith SPF 35 UVA/B Protection (50g)</P>
+                    <span class="price">$324</span><br>
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <a href="order.html?product=Product%218" class="order-btn">Order Now</a>
+                 </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="products.js"></script>
+</body>
